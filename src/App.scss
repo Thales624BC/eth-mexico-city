@@ -1,7 +1,10 @@
-$primary: #ebd494;
-$enable-shadows: true;
-$prefix: "mo-";
-
+$primary: #472836;
+$secondary: #EBD494;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "section-color": #FEFFBE
+);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .navbar-logo {
